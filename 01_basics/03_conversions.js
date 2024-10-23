@@ -24,3 +24,8 @@ console.log(booleanIsLogged)
 anything other than 0 will be true.
 empty string will be false, rest true
 */
+
+let str1 = "hello"
+let str2 = " Abhinandan"
+
+console.log(str1 + str2)
