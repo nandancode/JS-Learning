@@ -32,7 +32,41 @@ const obj3 = {...obj1, ...obj2}
 
 // console.log(obj3)
 
-console.log(tindUser)
+// console.log(tindUser)
 
-console.log(Object.keys(tindUser))
+// console.log(Object.keys(tindUser))
+// console.log(Object.values(tindUser))
+// console.log(Object.entries(tindUser))
 
+
+const User = [
+    {
+        id : 1,
+        email : "a@gmail.com"
+    },
+    {
+        id : 2,
+        email : "b@gmail.com"
+    }
+]
+
+// console.log(User[1].email)
+
+// console.log(tindUser.hasOwnProperty("isLoggedIn"))
+
+const course = {
+    description : "js in hindi",
+    price : 500,
+    courseInstructor : "Abhinandan"
+}
+
+//course.courseInstructor
+
+// const {courseInstructor} = course
+
+// console.log(courseInstructor)
+
+
+const {courseInstructor : instructor} = course
+
+console.log(instructor)
