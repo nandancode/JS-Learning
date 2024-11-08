@@ -38,3 +38,5 @@ const myObject = {
 //     console.log(key, ':-', value);
     
 // }
+
+//you can use for in
